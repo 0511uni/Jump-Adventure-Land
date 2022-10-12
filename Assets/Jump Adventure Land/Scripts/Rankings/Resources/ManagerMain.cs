@@ -50,7 +50,7 @@ public class ManagerMain : MonoBehaviour
     private void GetJsonFromWww()
     {
         // APIが設置してあるURLパス
-        const string url = "http://localhost/Ranking/Ranking/getRankings"; // http://localhost/ChineseWushuRankingapi/Chinesewushuranking/getMessages http://zipcloud.ibsnet.co.jp/api/search
+        //const string url = "http://localhost/Ranking/Ranking/getRankings"; // http://localhost/ChineseWushuRankingapi/Chinesewushuranking/getMessages http://zipcloud.ibsnet.co.jp/api/search
 
 
         // Wwwを利用して json データ取得をリクエストする
