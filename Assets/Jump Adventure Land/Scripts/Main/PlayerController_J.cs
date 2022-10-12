@@ -68,10 +68,11 @@ public class PlayerController_J : MonoBehaviour
     public AudioClip Se2;
     public AudioClip WinSE;
     public AudioClip GameOverSE;
+    new
     #endregion
 
     #region//プライベート変数　SpriteRenderer
-    SpriteRenderer renderer;
+        SpriteRenderer renderer;
     Rigidbody2D rbody;
     #endregion
 

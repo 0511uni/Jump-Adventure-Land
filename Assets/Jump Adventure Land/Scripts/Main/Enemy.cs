@@ -19,8 +19,7 @@ public class Enemy : MonoBehaviour
     Vector3 pos;
     float delta = 20.0f; //2
     float speed = 3.0f;
-
-    SpriteRenderer renderer;
+    new SpriteRenderer renderer;
 
     #region//他の機能追加編集用
     //private SpriteRenderer sr = null;
